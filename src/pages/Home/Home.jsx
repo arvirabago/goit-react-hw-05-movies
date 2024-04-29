@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { fecthTrendingMovies } from 'service/theMovieDbApi';
+import { fecthTrendingMovies } from 'services/theMovieDbApi';
 import { useState } from 'react';
 import MovieList from 'components/MovieList/MovieList';
 import styles from './Home.module.css';

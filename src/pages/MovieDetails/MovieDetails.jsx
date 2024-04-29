@@ -6,7 +6,7 @@ import {
   useParams,
   useLocation,
 } from 'react-router-dom';
-import { fetchMovieDetailsById } from 'service/theMovieDbApi';
+import { fetchMovieDetailsById } from 'services/theMovieDbApi';
 import { Loader } from 'components/Loader/Loader';
 
 import styles from './MovieDetails.module.css';

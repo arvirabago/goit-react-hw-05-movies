@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
-import { fetchMoviesByQuery } from 'service/theMovieDbApi';
+import { fetchMoviesByQuery } from 'services/theMovieDbApi';
 import { useState } from 'react';
 import MovieList from 'components/MovieList/MovieList';
 import { useSearchParams } from 'react-router-dom';
 import styles from './Movies.module.css';
-import SearchForm from 'components/SearchForm/SearchFrom';
+import SearchForm from '../../components/SearchForm/SearchForm';
+
 
 const Movies = () => {
   const [movies, setMovies] = useState(null);
